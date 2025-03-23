@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(img/background.jpeg);
+    background-size: cover;
+    background-position:center;
+    background-repeat: no-repeat;
+    backdrop-filter: blur(5px);
+    /* height: 100vh; */
+    font-family:  'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+.blurBg {
+    height: 100vh;
+    backdrop-filter: blur(5px);
+}
+
+.container {
+    padding: 12rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-image: linear-gradient(to left top, #1349a6, #0f5eb6, #1972c4, #2b86d0, #409adc, #34a9e6, #2bb8ee, #2ac7f5, #00d5f7, #00e3f3, #00efea, #12fbdc);
+    height: 40rem;
+    width: 30rem;
+    border-radius: 1rem;
+    padding: 3rem 2rem;
+}
+
+.searchSection {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.searchSection input {
+    height: 4rem;
+    width: 22rem;
+    border-radius: 2rem;
+    border: none;
+    padding: 0 1.5rem;
+    outline: none;
+    font-size: 1.2rem;
+}
+
+.searchSection button {
+    height: 4rem;
+    width: 4rem;
+    border-radius: 50%;
+    background-color: white;
+    border: none;
+}
+
+.output {
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+
+.output img {
+    height: 16rem;
+    width: 16rem;
+}
+
+.dgree,.place {
+    font-size: 3rem ;
+    color: white;
+}
+
+.extra {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.humidity {
+    display: flex;
+    gap: 1rem;
+    font-size: 1.3rem;
+    color: white;
+    font-weight: 600;
+}
+
+.humidity img {
+    height: 3rem;
+}

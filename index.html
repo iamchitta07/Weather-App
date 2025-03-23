@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- <div class="blurBg"></div> -->
+    <div class="container">
+        <div class="box">
+            <div class="searchSection">
+                <input type="text" name="" placeholder="Eneter city name" id="searchBar">
+                <button type="button"><i class="fa-solid fa-magnifying-glass fa-2x"></i></button>
+            </div>
+            <div class="output">
+                <img src="img/clear.png" class="weatherCdn" alt="" srcset="">
+                <div class="dgree"><span class="num">0</span>&degC</div>
+                <div class="place">Earth</div>
+            </div>
+            <div class="extra">
+                <div class="humidity">
+                    <img src="img/humidity.png" alt="" srcset="">
+                    <div class="humidityRate">
+                        <span class="hRate">0</span> %
+                        <div>Humidity</div>
+                    </div>
+                </div>
+                <div class="humidity">
+                    <img src="img/wind.png" alt="" srcset="">
+                    <div class="humidityRate">
+                        <span class="wRate">0</span> km/h
+                        <div>Wind Speed</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
